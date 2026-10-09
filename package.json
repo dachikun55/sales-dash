@@ -1,10 +1,10 @@
 {
   "name": "sales-dash",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node tests/core.test.js && node tests/v2.test.js",
+    "test": "node tests/core.test.js && node tests/v2.test.js && node tests/modes.test.js",
     "start": "python3 -m http.server 8080"
   }
 }
